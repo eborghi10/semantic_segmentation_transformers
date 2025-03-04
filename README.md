@@ -17,17 +17,17 @@ Open this repository as a [VS Devcontainer](https://code.visualstudio.com/docs/d
 
 * Dataset: `dataset.py`. Will push the dataset to Hugging Face.
 * Training: `segformer-vineyard-train.ipynb`.
-* Inference: TODO, see below.
+* Inference: `segformer-vineyard-inference.ipynb`.
 
 ## Known issues
 
-* Training fails with custom dataset.
+* Training metrics are not being calculated.
+* Apply correct labels to masks and update dataset.
 
 ## To do
 
-* Use Docker image in Devcontainer
-* Create inference on custom dataset
-* Setup MLOps pipeline
+* Setup MLOps pipeline.
+* Compare hyperparameters using good metrics.
 
 ## References
 
