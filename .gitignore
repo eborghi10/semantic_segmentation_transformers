@@ -1,9 +1,2 @@
-.venv
-bin
-etc
-include
-lib
-lib64
-segformer-b0-finetuned-segments-sidewalk-outputs
-share
-datasets/*
+.env
+segformer-vineyard-rows-outputs
